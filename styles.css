@@ -1,0 +1,120 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+h1, h2, p{
+    margin: 0;
+}
+
+header{
+    background: #FFF7ED;
+    height: 7em;
+    display: flex;
+    align-items: center;
+    padding: 0 5em;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.website-logo{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+nav a{
+    text-decoration: none;
+    color:#4D4D4D;
+    font-weight: 600;
+}
+
+nav a:hover{
+    color: #161616;
+    text-decoration: underline;
+}
+
+.homePage{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.46)), url("./assets/images/BackgroundImage-BG.jpg");
+    height: 53.875em;
+    padding: 100px 200px;
+    color: white;
+}
+
+.homePage h1{
+    font-size: 6.5rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.homePage p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.link-button{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
+    padding: 1em;
+    background: #FF8C38;
+    border: none;
+    border-radius: 10px;
+}
+
+.aboutPage{
+    background: #FFF7ED;
+}
+
+.aboutImage{
+    width: 100%;
+    height: 600px;
+}
+
+.aboutPage-text-container{
+    color: #161616;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutPage-text-container h1{
+    font-weight: 700;
+    font-size: 5.85rem;
+    margin-bottom: 30px;
+}
+
+.aboutPage-text-container p{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 55px;
+}
+
+.aboutPage-catalog-container{
+    background: #FFCC8D;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.aboutPage-catalog-container h1{
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.black{
+    padding: 1em 2em;
+    background: #161616;
+}
